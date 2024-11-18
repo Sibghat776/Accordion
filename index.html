@@ -5,35 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Accordions</title>
+    <title>Accordion</title>
 </head>
 
 <body>
     <div class="main">
-        <h1>General Questions</h1>
-        <div class="questions">
-            <div class="que1 que">
-                Tell Me About YourSelf
-                <button onclick="accordionKhula()">
-                    <i class="fa-solid fa-square-plus btn1"></i>
-                </button>
-            </div>
-            <div class="que2 que">
-                Tell Me About Your Previous Job?
-                <button onclick="accordionKhula()">
-                    <i class="fa-solid fa-square-plus btn2"></i>
-                </button>
-            </div>
-            <div class="que3 que">
-                Tell Me About Your Experience?
-                <button onclick="accordionKhula()">
-                    <i class="fa-solid fa-square-plus btn3"></i>
-                </button>
-            </div>
+        <h1>general questions</h1>
+        <div class="contentBox">
+            <div class="label" onclick="bandHoja1()">List One <span id="plus">+</span></div>
+            <div class="content class1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente iusto
+                assumenda voluptas dolor deleniti, nulla, quaerat amet natus ab numquam fuga quasi ex, libero quidem
+                consectetur doloremque expedita. Architecto voluptatibus doloribus quas, neque in commodi autem culpa id
+                nobis minus? Reiciendis sint maiores omnis, eligendi obcaecati dolor est autem libero nihil, odio ad
+                laudantium, cum qui deserunt ab ex.</div>
         </div>
+        <div class="contentBox">
+            <div class="label" onclick="bandHoja2()">List Two <span id="plus">+</span></div>
+            <div class="content class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente iusto
+                assumenda voluptas dolor deleniti, nulla, quaerat amet natus ab numquam fuga quasi ex, libero quidem
+                consectetur doloremque expedita. Architecto voluptatibus doloribus quas, neque in commodi autem culpa id
+                nobis minus? Reiciendis sint maiores omnis, eligendi obcaecati dolor est autem libero nihil, odio ad
+                laudantium, cum qui deserunt ab ex.</div>
+        </div>
+        <div class="contentBox">
+            <div class="label" onclick="bandHoja3()">List Three <span id="plus">+</span></div>
+            <div class="content class3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente iusto
+                assumenda voluptas dolor deleniti, nulla, quaerat amet natus ab numquam fuga quasi ex, libero quidem
+                consectetur doloremque expedita. Architecto voluptatibus doloribus quas, neque in commodi autem culpa id
+                nobis minus? Reiciendis sint maiores omnis, eligendi obcaecati dolor est autem libero nihil, odio ad
+                laudantium, cum qui deserunt ab ex.</div>
+        </div>
+        
     </div>
 
 

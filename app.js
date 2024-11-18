@@ -1,13 +1,17 @@
-let que1 = document.querySelector('.que1')
-let que2 = document.querySelector('.que2')
-let que3 = document.querySelector('.que3')
-let btn1 = document.querySelector('.btn1')
-let btn2 = document.querySelector('.btn2')
-let btn3 = document.querySelector('.btn3')
-let que4 = document.querySelector('.que4')
-function accordionKhula() {
-    console.log("Chala");
-    if () { } else { }
-    if () { } else { }
-    if () { } else { }
+let content = document.querySelector(".class1")
+let content2 = document.querySelector(".class2")
+let content3 = document.querySelector(".class3")
+let plus = document.querySelector("#plus")
+let minus = document.querySelector("#minus")
+function bandHoja1() {
+    console.log('Chala');
+    content.classList.toggle("active")
+}
+function bandHoja2() {
+    console.log('Chala');
+    content2.classList.toggle("active")
+}
+function bandHoja3() {
+    console.log('Chala');
+    content3.classList.toggle("active")
 }
