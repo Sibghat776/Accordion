@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Great+Vibes&family=IM+Fell+DW+Pica+SC&family=Manrope:wght@200..800&family=Mitr:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IM+Fell+DW+Pica+SC&family=Manrope:wght@200..800&family=Mitr:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom left, #6e4c1eff, #ffd653ff, #ddb65dff, #eeb238ff, #6e4c1eff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.main h1 {
+    font-size: 4vw;
+    font-family: "Great Vibes", cursive;
+}
+
+.que {
+    font-size: 1.1vw;
+    font-weight: bolder;
+    width: 60vw;
+    height: 11vh;
+    margin: 20px;
+    letter-spacing: 1.3px;
+    background-color: white;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 8px 8px 8px rgb(110, 76, 30);
+}
+button {
+    font-size: 2.6vw;
+    border: none;
+    cursor: pointer;
+}
+.afterFunction {
+    height: 23vh;
+    width: 60vw;
+    background-color: white;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
